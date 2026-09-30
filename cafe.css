@@ -1,0 +1,200 @@
+h1, h2, h3, h4, h5, h6 { margin: 0; }
+
+body{
+  display: block;
+  background-color:antiquewhite;
+}
+
+
+.top{
+  background-color: black;
+  color: white;
+  display: flex;
+  width: 100%;
+  height: 30px;
+  justify-content: space-between;
+  align-items: center;
+}
+.top a{
+  color: white;
+}
+
+.toph4{
+  margin-left: 10px;
+}
+
+.cafe_link{
+  margin-right: 10px;
+}
+
+.homeP{
+  background-image: url(./back.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: white;
+  height: 350px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+
+hr {
+  border: none;
+  border-top: 3px solid black ;
+  margin-top: 1px;
+}
+
+.hmenu{
+  height: 300px;
+}
+
+
+.menuicon{
+  border: 1px solid black;
+  height: 260px;
+  width: 400px;
+  display:flex;
+  flex-direction: column;
+}
+
+.menuimg{
+  background-color: lightgray;
+  height: 70%;
+}
+
+.menulog{
+  background-color: white;
+  height: 30%;
+  padding-left: 10px;
+}
+
+.habout{
+  background-color: white;
+  display: flex;
+  justify-content: left;
+}
+
+.habout_img{
+  background-color: aliceblue;
+  width: 800px;
+  height: 280px;
+
+}
+
+.habout_logbox{
+  height: 200px;
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 100px;
+
+}
+
+.habout_log {
+  display: grid;
+  grid-template-columns: repeat(3, 80px);   /* 3칸, 똑같은 너비 */
+}
+
+.log-cell {
+  border: 1px solid black;
+  padding: 1px 1px;
+  text-align: center;
+}
+
+.log-cell.header {
+  background-color: white;
+}
+
+.bottom{
+  background-color: black;
+  color: white;
+  height: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.bottom_log{
+  margin: 20px;
+}
+
+.menu-title {
+  padding: 20px;
+  background-color: whitesmoke;
+}
+
+.menu-section {
+  padding: 12px 20px;
+}
+
+.menu-section-title {
+  background-color: whitesmoke;
+  padding: 8px 12px;
+  border-left: 4px solid black;
+}
+
+.menu-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 16px;
+  margin-top: 12px;
+}
+
+.menu-note {
+  padding: 12px 20px;
+  color: gray;
+}
+
+.intro-box {
+  display: flex;
+  gap: 20px;
+  margin-top: 12px;
+}
+
+.intro-photo {
+  background-color: lightgray;
+  width: 400px;
+  height: 220px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.intro-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  line-height: 1.8;
+}
+
+.info-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 12px;
+}
+
+.info-table th,
+.info-table td {
+  border: 1px solid lightgray;
+  padding: 8px 12px;
+  text-align: center;
+}
+
+.info-table th {
+  background-color: whitesmoke;
+}
+
+.iphoto{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.menu-photo{
+  width: 100%;
+  height: 100%;
+}
